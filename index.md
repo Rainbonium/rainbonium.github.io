@@ -2,8 +2,9 @@
 layout: default
 ---
 
-# rainbonium.github.io
+# {{ site.name | default: site.title }}
+
+## About
 
 ## Projects
-- Project one
-- Project two
+
