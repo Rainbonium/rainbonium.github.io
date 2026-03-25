@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# {{ site.name }}
+# {{ site.title }}
 
 ## About
 
