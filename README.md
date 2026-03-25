@@ -1,6 +1,1 @@
----
-layout: post
-title: Test
----
-
-# rainbonium.github.io
+# Nothing to see here.

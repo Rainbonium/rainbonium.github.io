@@ -1,6 +1,5 @@
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
+title: Test
+description: Test.
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-cayman
