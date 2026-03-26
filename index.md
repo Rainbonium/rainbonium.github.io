@@ -4,11 +4,13 @@ title: Rainbonium
 description: Computer Science Graduate | Portfolio
 ---
 
-## About
+## **About**
 
-## Projects
+## **Projects**
 
 {% for project in site.data.projects %}
+<div class="project-card" markdown="1">
+
 ### {{ project.name }}
 
 {{ project.description }}
@@ -18,6 +20,5 @@ description: Computer Science Graduate | Portfolio
 {% if project.repo %}[Code]({{ project.repo }}){% endif %}
 {% if project.demo %} | [Live demo]({{ project.demo }}){% endif %}
 
-{% if project.image %}![{{ project.name }}]({{ project.image }}){% endif %}
-
+</div>
 {% endfor %}

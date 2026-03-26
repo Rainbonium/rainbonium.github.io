@@ -1,0 +1,41 @@
+---
+---
+
+// Headers
+$header-heading-color: #fff;
+$header-bg-color: #30C4FF;
+$header-bg-color-secondary: #5360ED;
+
+// Text
+$section-headings-color: #3F7DFF;
+$body-text-color: #606c71;
+$body-link-color: #1e6bb8;
+$blockquote-text-color: #819198;
+
+// Code
+$code-bg-color: #f3f6fa;
+$code-text-color: #567482;
+
+// Borders
+$border-color: #dce6f0;
+$table-border-color: #e9ebec;
+$hr-border-color: #eff0f1;
+
+@import "{{ site.theme }}";
+
+.project-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+  transition: 0.2s ease;
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
