@@ -198,60 +198,31 @@ footer {
   .carousel-sticky {
     height: auto;
     align-items: flex-start;
+    padding-top: 0.75rem;
   }
 
-  .carousel-section {
-    margin-top: 0.2rem;
+  .carousel-shell {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    padding-top: 0.25rem;
   }
 
   .carousel-title {
     position: static;
     display: block;
-    margin: 0 0 0.6rem;
-    padding-top: 0.5rem;
+    margin: 0;
     font-size: 1.25rem;
     text-align: center;
-  }
-
-  .carousel-shell {
-    padding-top: 0.25rem;
+    line-height: 1.1;
   }
 
   .carousel {
-    height: 58vh;
+    height: 56vh;
     min-height: 390px;
     border-radius: 0;
     padding-top: 0;
-  }
-
-  .carousel-track {
-    gap: 0.9rem;
-  }
-
-  .project-card {
-    flex-basis: 78vw;
-    transform: scale(0.92);
-  }
-
-  .project-card.is-near {
-    transform: scale(0.96);
-  }
-
-  .project-card.is-center {
-    transform: scale(1.01);
-  }
-
-  .project-content {
-    padding: 0.9rem 0.95rem 1rem;
-  }
-
-  .project-content h3 {
-    font-size: 1.1rem;
-    margin-bottom: 0.4rem;
-  }
-
-  .project-buttons {
-    margin-top: 0.75rem;
+    margin-top: 0.25rem;
   }
 }
 
@@ -259,54 +230,29 @@ footer {
   .carousel-sticky {
     height: auto;
     align-items: flex-start;
+    padding-top: 0.5rem;
+  }
+
+  .carousel-shell {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    padding-top: 0.15rem;
   }
 
   .carousel-title {
     position: static;
     display: block;
-    margin: 0 0 0.45rem;
-    padding-top: 0.35rem;
+    margin: 0;
     font-size: 1.15rem;
     text-align: center;
-  }
-
-  .carousel-shell {
-    padding-top: 0.15rem;
+    line-height: 1.1;
   }
 
   .carousel {
-    height: 52vh;
+    height: 50vh;
     min-height: 320px;
     padding-top: 0;
-  }
-
-  .carousel-track {
-    gap: 0.85rem;
-  }
-
-  .project-card {
-    flex-basis: 70vw;
-    transform: scale(0.91);
-  }
-
-  .project-card.is-near {
-    transform: scale(0.95);
-  }
-
-  .project-card.is-center {
-    transform: scale(1.0);
-  }
-
-  .project-content {
-    padding: 0.85rem 0.95rem 0.95rem;
-  }
-
-  .project-content h3 {
-    font-size: 1.05rem;
-    margin-bottom: 0.35rem;
-  }
-
-  .project-buttons {
-    margin-top: 0.7rem;
+    margin-top: 0.15rem;
   }
 }
