@@ -2,4 +2,4 @@
 
 Made with Jekyll and Cayman.
 
-[rainbonium.github.io]
+[Click here to view Github Page.](rainbonium.github.io)
