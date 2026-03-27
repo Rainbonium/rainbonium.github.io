@@ -5,6 +5,10 @@ description: Computer Science Graduate | Portfolio
 ---
 
 ## **About**
+I'm a motivated and detail-oriented Computer Science graduate, with hands-on experience in STEM 
+instruction, program development, and technical troubleshooting. Seeking an entry-level position 
+where I can apply my programming skills, problem-solving abilities, and passion for technology to 
+contribute to innovative software and help society while continuing to grow as a developer.
 
 <section class="carousel-section" id="carousel-section">
   <div class="carousel-sticky">
