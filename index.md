@@ -13,9 +13,9 @@ contribute to innovative software and help society while continuing to grow as a
 <section class="carousel-section" id="carousel-section">
   <div class="carousel-sticky">
     <div class="carousel-shell">
-      <h2 class="carousel-title"><strong>Projects</strong></h2>
-
       <div class="carousel" id="carousel">
+        <h2 class="carousel-title"><strong>Projects</strong></h2>
+
         <div class="carousel-track" id="carousel-track">
           {% for project in site.data.projects %}
           <article class="project-card">
