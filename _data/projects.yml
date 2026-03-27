@@ -1,10 +1,11 @@
-- name: Roblox Edge-Based Maze Generation System
-  description: 
+- name: Student Information System (Archived Project
+  description: A Python + SQLAlchemy project focused on relational database design and data integrity.
   tech:
-    - Luau
-    - Algorithms
-  demo: https://www.roblox.com/games/14147397235/ByteStorm
-  image: /assets/images/project-one.png
+    - SQLAlchemy ORM
+    - Database Relationships
+    - Python
+  repo: https://github.com/Rainbonium/Student-Information-System--Archived-Project-
+  image: /assets/images/StudentInformationSystem.png
   
 - name: Roblox Edge-Based Maze Generation System
   description: 
