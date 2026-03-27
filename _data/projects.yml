@@ -7,6 +7,14 @@
   repo: https://github.com/Rainbonium/Fibonacci-Solitaire
   image: /assets/images/FibonacciSolitaire.png
 
+- name: TCP Echo Client-Server
+  description: A minimal Java client-server application demonstrating TCP socket communication and real-time message exchange.
+  tech:
+    - TCP/IP Sockets
+    - Java
+  repo: https://github.com/Rainbonium/TCP-Echo-Client-Server
+  image: /assets/images/TCPEchoClientServer.png
+
 - name: Student Information System (Archived Project)
   description: A Python + SQLAlchemy project focused on relational database design and data integrity.
   tech:
@@ -15,11 +23,3 @@
     - Python
   repo: https://github.com/Rainbonium/Student-Information-System--Archived-Project-
   image: /assets/images/StudentInformationSystem.png
-
-- name: Roblox Edge-Based Maze Generation System
-  description: 
-  tech:
-    - Luau
-    - Algorithms
-  demo: https://www.roblox.com/games/14147397235/ByteStorm
-  image: /assets/images/project-two.png
