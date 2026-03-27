@@ -26,10 +26,12 @@ $hr-border-color: #eff0f1;
 h2 {
   text-align: center;
 }
+
 body {
   text-align: center;
   overflow-x: clip;
 }
+
 footer {
   text-align: center;
 }
@@ -61,14 +63,15 @@ footer {
 
 .carousel-title {
   position: absolute;
-  top: 2.5rem;
+  top: 3rem;
   left: 0;
   right: 0;
   z-index: 3;
-  text-align: center;
   margin: 0;
+  text-align: center;
   pointer-events: none;
   font-weight: 700;
+  line-height: 1.1;
 }
 
 .carousel {
@@ -82,7 +85,7 @@ footer {
   background: linear-gradient(180deg, rgba(255,255,255,0.92), rgba(248,250,252,0.98));
   box-shadow: 0 22px 60px rgba(15, 23, 42, 0.12);
   border: 1px solid rgba(15, 23, 42, 0.08);
-  padding-top: 4rem;
+  padding-top: 7rem;
 }
 
 .carousel-track {
@@ -163,6 +166,7 @@ footer {
   gap: 0.75rem;
   flex-wrap: wrap;
   margin-top: 1rem;
+  justify-content: center;
 }
 
 .project-button {
@@ -191,28 +195,24 @@ footer {
 }
 
 @media (max-width: 700px) {
-  .carousel-title {
-    position: static;
-    display: block;
-    margin: 0 0 0.75rem;
-    padding-top: 0.75rem;
-    font-size: 1.4rem;
-    text-align: center;
-  }
-
   .carousel-section {
     margin-top: 0.2rem;
   }
 
+  .carousel-title {
+    top: 0.7rem;
+    font-size: 1.35rem;
+  }
+
   .carousel-shell {
-    padding: 0;
-	padding-top: 0.25rem;
+    padding-top: 0;
   }
 
   .carousel {
     height: 72vh;
+    min-height: 520px;
     border-radius: 0;
-	padding-top: 0;
+    padding-top: 3.25rem;
   }
 
   .carousel-track {
@@ -226,15 +226,11 @@ footer {
 
 @media (max-width: 900px) and (orientation: landscape) {
   .carousel-title {
-    position: static;
-    display: block;
-    margin: 0 0 0.5rem;
-    padding-top: 0.5rem;
-    font-size: 1.3rem;
-    text-align: center;
+    top: 0.7rem;
+    font-size: 1.25rem;
   }
 
   .carousel {
-    padding-top: 0;
+    padding-top: 3rem;
   }
 }
