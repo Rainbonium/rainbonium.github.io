@@ -1,3 +1,12 @@
+- name: Simple Substitution Cipher Tool
+  description: A Python-based cryptanalysis project that encrypts, decrypts, and automatically breaks simple substitution ciphers.
+  tech:
+    - Cryptography
+    - Algorithms
+    - Python
+  repo: https://github.com/Rainbonium/Simple-Substitution-Cipher-Tool
+  image: /assets/images/SimpleSubstitutionCipherTool.png
+
 - name: Fibonacci Solitaire
   description: A C++ powered simulation of the game "Fibonacci Solitaire," making use of object-oriented design to model card and deck behavior.
   tech:
