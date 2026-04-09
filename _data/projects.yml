@@ -7,6 +7,16 @@
   repo: https://github.com/Rainbonium/Simple-Substitution-Cipher-Tool
   image: /assets/images/SimpleSubstitutionCipherTool.png
 
+- name: Restaurant Ordering System
+  description: A web-based restaurant POS system with Django backend, supporting order processing in real-time and receipt printing.
+  tech:
+    - Databases
+    - JavaScript
+    - HTML / CSS
+    - Python
+  repo: https://github.com/Rainbonium/Restaurant-Ordering-System
+  image: /assets/images/RestaurantOrderingSystem.png
+
 - name: Fibonacci Solitaire
   description: A C++ powered simulation of the game "Fibonacci Solitaire," making use of object-oriented design to model card and deck behavior.
   tech:
