@@ -35,7 +35,7 @@ contribute to innovative software and help society while continuing to grow as a
 
               <div class="project-buttons">
                 {% if project.repo %}
-                <a class="project-button primary" href="{{ project.repo }}">Code</a>
+                <a class="project-button primary" href="{{ project.repo }}">Repo</a>
                 {% endif %}
                 {% if project.demo %}
                 <a class="project-button" href="{{ project.demo }}">Demo</a>
