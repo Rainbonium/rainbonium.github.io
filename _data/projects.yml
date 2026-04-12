@@ -26,6 +26,15 @@
   repo: https://github.com/Rainbonium/Procedural-Maze-Generation
   image: /assets/images/ProceduralMazeGeneration.png
 
+- name: Student Information System (Archived Project)
+  description: A Python + SQLAlchemy project focused on relational database design and data integrity.
+  tech:
+    - SQLAlchemy ORM
+    - Database Relationships
+    - Python
+  repo: https://github.com/Rainbonium/Student-Information-System--Archived-Project-
+  image: /assets/images/StudentInformationSystem.png
+
 - name: Fibonacci Solitaire
   description: A C++ powered simulation of the game "Fibonacci Solitaire," making use of object-oriented design to model card and deck behavior.
   tech:
@@ -42,12 +51,3 @@
     - Java
   repo: https://github.com/Rainbonium/TCP-Echo-Client-Server
   image: /assets/images/TCPEchoClientServer.png
-
-- name: Student Information System (Archived Project)
-  description: A Python + SQLAlchemy project focused on relational database design and data integrity.
-  tech:
-    - SQLAlchemy ORM
-    - Database Relationships
-    - Python
-  repo: https://github.com/Rainbonium/Student-Information-System--Archived-Project-
-  image: /assets/images/StudentInformationSystem.png
