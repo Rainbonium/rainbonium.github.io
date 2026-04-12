@@ -12,10 +12,19 @@
   tech:
     - Databases
     - JavaScript
-    - HTML / CSS
+    - HTML/CSS
     - Python
   repo: https://github.com/Rainbonium/Restaurant-Ordering-System
   image: /assets/images/RestaurantOrderingSystem.png
+
+- name: Procedural Maze Generation
+  description: A procedural maze generation system using randomized, graph-based algorithms to create fully connected, dynamic layouts in Roblox.
+  tech:
+    - Procedural Generation
+    - Algorithms
+    - Luau
+  repo: https://github.com/Rainbonium/Procedural-Maze-Generation
+  image: /assets/images/ProceduralMazeGeneration.png
 
 - name: Fibonacci Solitaire
   description: A C++ powered simulation of the game "Fibonacci Solitaire," making use of object-oriented design to model card and deck behavior.
