@@ -26,6 +26,14 @@
   repo: https://github.com/Rainbonium/Procedural-Maze-Generation
   image: /assets/images/ProceduralMazeGeneration.png
 
+- name: ARM64 Assembly String Operations (Archived Project)
+  description: An ARM64 assembly program that implements several core string operations from scratch using low-level memory and register manipulation.
+  tech:
+    - Linux
+    - ARM64 Assembly
+  repo: https://github.com/Rainbonium/ARM64-Assembly-String-Operations
+  image: /assets/images/ARM64AssemblyStringOperations.png
+
 - name: Student Information System (Archived Project)
   description: A Python + SQLAlchemy project focused on relational database design and data integrity.
   tech:
